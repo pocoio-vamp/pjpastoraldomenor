@@ -13,11 +13,24 @@
 </head>
 <body>
 
-  <!-- CABEÇALHO -->
-  <header class="topo">
-    <h1>APRENDER & BRINCAR</h1>
-    <p>Informática, Jogos, Livros, Amigos do Céu e Histórias!</p>
-  </header>
+
+  <!-- CABEÇALHO COM MENU -->
+<header class="topo">
+  <h1>APRENDER & BRINCAR</h1>
+  <p>Informática, Jogos, Livros, Amigos do Céu e Histórias!</p>
+  
+  <nav class="menu-navegacao">
+    <ul>
+      <li><a href="#informatica">Informática</a></li>
+      <li><a href="#jogos">Jogos</a></li>
+      <li><a href="#leitura">Leitura</a></li>
+      <li><a href="#santos">Santos</a></li>
+      <li><a href="#biblia">Bíblia</a></li>
+      <li><a href="#escolagames">Escola Games</a></li>
+      <li><a href="#pastoral">Pastoral</a></li>
+    </ul>
+  </nav>
+</header>
 
   <main class="conteudo">
 
@@ -25,9 +38,9 @@
     <!-- 1ª PARTE: INFORMÁTICA BÁSICA INFANTIL -->
     <!-- ========================================== -->
 
-    <section class="bloco bloco-informatica">
+    <section id="informatica" class="bloco bloco-informatica">
       <div class="faixa-titulo">
-        <h2>Aulas de Informática Básica</h2>
+        <h2>Informática Básica</h2>
       </div>
 
       <div class="grid-cards">
@@ -36,8 +49,8 @@
         <div class="card card-azul gira-esq">
           <span class="badge">AULA 1</span>
           <img src="img/figura3.jpg" alt="Família usando tecnologia" class="img-informatica">
-          <h3>Tecnologia no Dia a Dia</h3>
-          <p>Aprenda como os computadores, notebooks e tablets ajudam a gente a estudar, trabalhar e nos divertir!</p>
+          <h3>Cuidados necessários </h3>
+          <p> Ao aprender com os computadores, notebooks e tablets ajudam a gente a estudar, trabalhar e nos divertir, mas precisa de um adulto responsável!</p>
         </div>
 
         <!-- Aula 2: Partes do Computador -->
@@ -45,7 +58,7 @@
           <span class="badge">AULA 2</span>
           <img src="img/figura1.png" alt="Partes do Computador" class="img-informatica">
           <h3>Partes do Computador</h3>
-          <p>Descubra a função do monitor, gabinete, teclado e mouse para o funcionamento do seu PC.</p>
+          <p>Os computadores contém função do monitor, gabinete, teclado e mouse para o funcionamento do seu PC.</p>
         </div>
 
         <!-- Aula 3: Como Ligar e Desligar -->
@@ -60,16 +73,16 @@
         <div class="card card-rosa gira-dir">
           <span class="badge">AULA 4</span>
           <img src="img/mouse.png" alt="Botões do Mouse" class="img-informatica">
-          <h3>Conhecendo o Mouse</h3>
-          <p>Entenda para que serve o botão esquerdo (clique/seleção), o botão direito (opções) e a ropinha central.</p>
+          <h3>O Mouse Ratudo</h3>
+          <p>O mouse ratudo tem o botão esquerdo (clique/seleção), o botão direito (opções) e a ropinha central.</p>
         </div>
 
         <!-- Aula 5: Dominando o Teclado -->
         <div class="card card-roxo gira-esq">
           <span class="badge">AULA 5</span>
           <img src="img/teclado.jpg" alt="Divisão das Teclas no Teclado" class="img-informatica">
-          <h3>Conhecendo o Teclado</h3>
-          <p>Aprenda a divisão das teclas: digitação, teclas de função, navegação e o teclado numérico.</p>
+          <h3>Teclado Grandão</h3>
+          <p>Nele tem a divisão das teclas: digitação, teclas de função, navegação e o teclado numérico.</p>
         </div>
 
         <!-- Aula 6: Organizando Pastas -->
@@ -77,7 +90,7 @@
           <span class="badge">AULA 6</span>
           <img src="img/pastas-windows-explorer.png" alt="Criando Pastas no Windows" class="img-informatica">
           <h3>Criando Pastas</h3>
-          <p>Aprenda a usar o botão direito na área de trabalho para criar e organizar suas pastas de tarefas.</p>
+          <p>Para criar pastas basta usar o botão direito na área de trabalho e em novo clique em pasta escolha o nome que quiser, será importante para organizar suas pastas de tarefas.</p>
         </div>
 
       </div>
@@ -86,7 +99,8 @@
 <!-- ========================================== -->
 <!-- 2ª PARTE: JOGOS SEPARADOS POR IDADE (6 A 11 ANOS) -->
 <!-- ========================================== -->
-<section class="bloco bloco-jogos-idade">
+
+<section id="jogos" class="bloco bloco-informatica">
   <div class="faixa-titulo">
     <h2>Jogos Educativos por Idade</h2>
   </div>
@@ -110,18 +124,21 @@
   <div class="grid-cards grupo-jogos grupo-6">
     <div class="card card-amarelo gira-esq">
       <span class="badge">6 ANOS</span>
+      <img src="img/euseicontar.png" alt="Eu Sei Contar" class="capa-jogo">
       <h3>Eu Sei Contar</h3>
       <p>Conte os elementos e aprenda a sequência numérica inicial.</p>
       <a href="https://www.escolagames.com.br/jogos/eu-sei-contar" target="_blank" class="btn btn-verde">JOGAR AGORA!</a>
     </div>
     <div class="card card-azul gira-dir">
       <span class="badge">6 ANOS</span>
+      <img src="img/formasgeometricas.png" alt="Formas Geométricas" class="capa-jogo">
       <h3>Formas Geométricas</h3>
       <p>Identifique as formas geométricas pelo caminho de maneira divertida!</p>
       <a href="https://www.escolagames.com.br/jogos/formas-geometricas" target="_blank" class="btn btn-verde">JOGAR AGORA!</a>
     </div>
     <div class="card card-rosa gira-esq">
       <span class="badge">6 ANOS</span>
+      <img src="img/aprendaacontar.png" alt="Aprenda a Contar" class="capa-jogo">
       <h3>Aprenda a Contar</h3>
       <p>Pratique a contagem com objetos do dia a dia.</p>
       <a href="https://www.escolagames.com.br/jogos/aprenda-a-contar" target="_blank" class="btn btn-verde">JOGAR AGORA!</a>
@@ -132,18 +149,21 @@
   <div class="grid-cards grupo-jogos grupo-7" style="display: none;">
     <div class="card card-amarelo gira-dir">
       <span class="badge">7 ANOS</span>
+      <img src="img/superheroisadiçao.png" alt="Super-Heróis Adição" class="capa-jogo">
       <h3>Super-Heróis Adição</h3>
       <p>Pratique operações simples de somar com os heróis.</p>
       <a href="https://www.escolagames.com.br/jogos/super-herois-adicao" target="_blank" class="btn btn-verde">JOGAR AGORA!</a>
     </div>
     <div class="card card-azul gira-esq">
       <span class="badge">7 ANOS</span>
+      <img src="img/superheroissubtraçao.png.png" alt="Super-Heróis Subtração" class="capa-jogo">
       <h3>Super-Heróis Subtração</h3>
       <p>Resolva continhas de menos e salve o dia.</p>
       <a href="https://www.escolagames.com.br/jogos/super-herois-subtracao" target="_blank" class="btn btn-verde">JOGAR AGORA!</a>
     </div>
     <div class="card card-rosa gira-dir">
       <span class="badge">7 ANOS</span>
+      <img src="img/completandoosnumeros.png" alt="Completando os Números" class="capa-jogo">
       <h3>Completando os Números</h3>
       <p>Descubra qual é o número que está faltando na sequência.</p>
       <a href="https://www.escolagames.com.br/jogos/completando-os-numeros" target="_blank" class="btn btn-verde">JOGAR AGORA!</a>
@@ -154,18 +174,21 @@
   <div class="grid-cards grupo-jogos grupo-8" style="display: none;">
     <div class="card card-amarelo gira-esq">
       <span class="badge">8 ANOS</span>
+      <img src="img/tabuadadino.png" alt="Tabuada do Dino" class="capa-jogo">
       <h3>Tabuada do Dino</h3>
       <p>Treine a tabuada e seja um verdadeiro campeão da multiplicação!</p>
       <a href="https://www.escolagames.com.br/jogos/tabuada-do-dino" target="_blank" class="btn btn-verde">JOGAR AGORA!</a>
     </div>
     <div class="card card-azul gira-dir">
       <span class="badge">8 ANOS</span>
+      <img src="img/aprendendoashoras.png" alt="Aprendendo as Horas" class="capa-jogo">
       <h3>Aprendendo as Horas</h3>
       <p>Aprenda a ver as horas nos relógios digitais e de ponteiro.</p>
       <a href="https://www.escolagames.com.br/jogos/aprendendo-as-horas" target="_blank" class="btn btn-verde">JOGAR AGORA!</a>
     </div>
     <div class="card card-rosa gira-esq">
       <span class="badge">8 ANOS</span>
+      <img src="img/mestredatabuada.png" alt="Mestre da Tabuada" class="capa-jogo">
       <h3>Mestre da Tabuada</h3>
       <p>Desafio rápido para testar se você sabe a tabuada na ponta da língua.</p>
       <a href="https://www.escolagames.com.br/jogos/mestre-da-tabuada" target="_blank" class="btn btn-verde">JOGAR AGORA!</a>
@@ -176,18 +199,21 @@
   <div class="grid-cards grupo-jogos grupo-9" style="display: none;">
     <div class="card card-amarelo gira-dir">
       <span class="badge">9 ANOS</span>
+      <img src="img/superheroimultiplicaçao.png" alt="Super-Heróis Multiplicação" class="capa-jogo">
       <h3>Super-Heróis Multiplicação</h3>
       <p>Ajude os super-heróis a responder aos cálculos de multiplicação.</p>
       <a href="https://www.escolagames.com.br/jogos/super-herois-multiplicacao" target="_blank" class="btn btn-verde">JOGAR AGORA!</a>
     </div>
     <div class="card card-azul gira-esq">
       <span class="badge">9 ANOS</span>
+      <img src="img/robologico.png" alt="Robô Lógico" class="capa-jogo">
       <h3>Robô Lógico</h3>
       <p>Desenvolva o raciocínio lógico e matemático com o robô.</p>
       <a href="https://www.escolagames.com.br/jogos/robo-logico" target="_blank" class="btn btn-verde">JOGAR AGORA!</a>
     </div>
     <div class="card card-rosa gira-dir">
       <span class="badge">9 ANOS</span>
+      <img src="img/materialdourado.png" alt="Material Dourado" class="capa-jogo">
       <h3>Material Dourado</h3>
       <p>Aprenda unidades, dezenas e centenas com o material dourado.</p>
       <a href="https://www.escolagames.com.br/jogos/material-dourado" target="_blank" class="btn btn-verde">JOGAR AGORA!</a>
@@ -198,21 +224,24 @@
   <div class="grid-cards grupo-jogos grupo-10" style="display: none;">
     <div class="card card-amarelo gira-esq">
       <span class="badge">10 ANOS</span>
+      <img src="img/superheroidadivisao.png" alt="Super-Heróis Divisão" class="capa-jogo">
       <h3>Super-Heróis Divisão</h3>
       <p>Resolva contas de divisão e ajude na missão.</p>
       <a href="https://www.escolagames.com.br/jogos/super-herois-divisao" target="_blank" class="btn btn-verde">JOGAR AGORA!</a>
     </div>
-    <div class="card card-azul gira-dir">
-      <span class="badge">10 ANOS</span>
+    <div class="card card-azul gira-esq">
+      <span class="badge">11 ANOS</span>
+      <img src="img/dividindopizza.png" alt="Dividindo a Pizza" class="capa-jogo">
       <h3>Dividindo a Pizza</h3>
-      <p>Aprenda a dividir inteiros e entenda as partes da fração.</p>
+      <p>Pratique frações e equivalências matemáticas de forma fácil.</p>
       <a href="https://www.escolagames.com.br/jogos/dividindo-a-pizza" target="_blank" class="btn btn-verde">JOGAR AGORA!</a>
     </div>
-    <div class="card card-rosa gira-esq">
-      <span class="badge">10 ANOS</span>
-      <h3>Mestre da Tabuada</h3>
-      <p>Treino avançado das operações matemáticas de multiplicação.</p>
-      <a href="https://www.escolagames.com.br/jogos/mestre-da-tabuada" target="_blank" class="btn btn-verde">JOGAR AGORA!</a>
+    <div class="card card-azul gira-esq">
+      <span class="badge">9 ANOS</span>
+      <img src="img/robologico.png" alt="Robô Lógico" class="capa-jogo">
+      <h3>Robô Lógico</h3>
+      <p>Desenvolva o raciocínio lógico e matemático com o robô.</p>
+      <a href="https://www.escolagames.com.br/jogos/robo-logico" target="_blank" class="btn btn-verde">JOGAR AGORA!</a>
     </div>
   </div>
 
@@ -220,20 +249,23 @@
   <div class="grid-cards grupo-jogos grupo-11" style="display: none;">
     <div class="card card-amarelo gira-dir">
       <span class="badge">11 ANOS</span>
-      <h3>Super-Heróis Divisão</h3>
-      <p>Treino intensivo de divisão para consolidar os aprendizados.</p>
-      <a href="https://www.escolagames.com.br/jogos/super-herois-divisao" target="_blank" class="btn btn-verde">JOGAR AGORA!</a>
+      <img src="img/algarismoromano.png" alt="Algarismo Romano" class="capa-jogo">
+      <h3>Algarismo Romano</h3>
+      <p>tire a flecha nas moedas que aparecem no Coliseu e selecione o número romano correspondente ao número de moedas.</p>
+      <a href="https://www.escolagames.com.br/jogos/algarismos-romanos" target="_blank" class="btn btn-verde">JOGAR AGORA!</a>
     </div>
     <div class="card card-azul gira-esq">
       <span class="badge">11 ANOS</span>
+      <img src="img/dividindopizza.png" alt="Dividindo a Pizza" class="capa-jogo">
       <h3>Dividindo a Pizza</h3>
       <p>Pratique frações e equivalências matemáticas de forma fácil.</p>
       <a href="https://www.escolagames.com.br/jogos/dividindo-a-pizza" target="_blank" class="btn btn-verde">JOGAR AGORA!</a>
     </div>
-    <div class="card card-rosa gira-dir">
-      <span class="badge">11 ANOS</span>
+    <div class="card card-azul gira-esq">
+      <span class="badge">9 ANOS</span>
+      <img src="img/robologico.png" alt="Robô Lógico" class="capa-jogo">
       <h3>Robô Lógico</h3>
-      <p>Desafios avançados de lógica e matemática.</p>
+      <p>Desenvolva o raciocínio lógico e matemático com o robô.</p>
       <a href="https://www.escolagames.com.br/jogos/robo-logico" target="_blank" class="btn btn-verde">JOGAR AGORA!</a>
     </div>
   </div>
@@ -246,18 +278,21 @@
   <div class="grid-cards grupo-jogos grupo-6">
     <div class="card card-roxo gira-dir">
       <span class="badge">6 ANOS</span>
+      <img src="img/alfabetodesabão.png" alt="Alfabeto de Sabão" class="capa-jogo">
       <h3>Alfabeto de Sabão</h3>
       <p>Estoure bolhas de sabão e aprenda as letras do alfabeto.</p>
       <a href="https://www.escolagames.com.br/jogos/alfabeto-de-sabao" target="_blank" class="btn btn-amarelo">JOGAR AGORA!</a>
     </div>
     <div class="card card-verde gira-esq">
       <span class="badge">6 ANOS</span>
+      <img src="img/fábricadepalavras.png" alt="Fábrica de Palavras" class="capa-jogo">
       <h3>Fábrica de Palavras</h3>
       <p>Junte as letrinhas e forme suas primeiras palavras.</p>
       <a href="https://www.escolagames.com.br/jogos/fabrica-de-palavras" target="_blank" class="btn btn-amarelo">JOGAR AGORA!</a>
     </div>
     <div class="card card-amarelo gira-dir">
       <span class="badge">6 ANOS</span>
+      <img src="img/caçapalavras.png" alt="Caça Palavras" class="capa-jogo">
       <h3>Caça Palavras</h3>
       <p>Encontre as palavras escondidas na grade de letras.</p>
       <a href="https://www.escolagames.com.br/jogos/caca-palavras" target="_blank" class="btn btn-amarelo">JOGAR AGORA!</a>
@@ -268,20 +303,23 @@
   <div class="grid-cards grupo-jogos grupo-7" style="display: none;">
     <div class="card card-roxo gira-esq">
       <span class="badge">7 ANOS</span>
+      <img src="img/separeassilabas.png" alt="Separe as Sílabas" class="capa-jogo">
       <h3>Separe as Sílabas</h3>
       <p>Separe os pedacinhos das palavras de forma interativa e divertida.</p>
       <a href="https://www.escolagames.com.br/jogos/separe-as-silabas" target="_blank" class="btn btn-amarelo">JOGAR AGORA!</a>
     </div>
     <div class="card card-verde gira-dir">
       <span class="badge">7 ANOS</span>
+      <img src="img/ditado.png" alt="Ditador" class="capa-jogo">
       <h3>Ditado</h3>
       <p>Escute a palavra e escreva corretamente na tela.</p>
       <a href="https://www.escolagames.com.br/jogos/ditado" target="_blank" class="btn btn-amarelo">JOGAR AGORA!</a>
     </div>
-    <div class="card card-amarelo gira-esq">
-      <span class="badge">7 ANOS</span>
+    <div class="card card-verde gira-esq">
+      <span class="badge">6 ANOS</span>
+      <img src="img/fábricadepalavras.png" alt="Fábrica de Palavras" class="capa-jogo">
       <h3>Fábrica de Palavras</h3>
-      <p>Monte palavras mais complexas reunindo sílabas e letras.</p>
+      <p>Junte as letrinhas e forme suas primeiras palavras.</p>
       <a href="https://www.escolagames.com.br/jogos/fabrica-de-palavras" target="_blank" class="btn btn-amarelo">JOGAR AGORA!</a>
     </div>
   </div>
@@ -290,18 +328,21 @@
   <div class="grid-cards grupo-jogos grupo-8" style="display: none;">
     <div class="card card-roxo gira-dir">
       <span class="badge">8 ANOS</span>
+      <img src="img/masculinoefeminino.png" alt="Masculino e Feminino" class="capa-jogo">
       <h3>Masculino e Feminino</h3>
       <p>Classifique as palavras de acordo com o gênero gramatical.</p>
       <a href="https://www.escolagames.com.br/jogos/masculino-e-feminino" target="_blank" class="btn btn-amarelo">JOGAR AGORA!</a>
     </div>
     <div class="card card-verde gira-esq">
       <span class="badge">8 ANOS</span>
+      <img src="img/bruxadosacentos.png" alt="Bruxa dos Acentos" class="capa-jogo">
       <h3>Bruxa dos Acentos</h3>
       <p>Aprenda onde aplicar os acentos agudo e circunflexo nas palavras.</p>
       <a href="https://www.escolagames.com.br/jogos/bruxa-dos-acentos" target="_blank" class="btn btn-amarelo">JOGAR AGORA!</a>
     </div>
     <div class="card card-amarelo gira-dir">
       <span class="badge">8 ANOS</span>
+      <img src="img/sopadeletrinhas.png" alt="Sopa de Letrinhas" class="capa-jogo">
       <h3>Sopa de Letrinhas</h3>
       <p>Encontre a grafia correta das palavras no meio da sopa.</p>
       <a href="https://www.escolagames.com.br/jogos/sopa-de-letrinhas" target="_blank" class="btn btn-amarelo">JOGAR AGORA!</a>
@@ -310,64 +351,73 @@
 
   <!-- 9 ANOS -->
   <div class="grid-cards grupo-jogos grupo-9" style="display: none;">
-    <div class="card card-roxo gira-esq">
-      <span class="badge">9 ANOS</span>
+    <div class="card card-amarelo gira-esq">
+      <span class="badge">11 ANOS</span>
+      <img src="img/jogodoplural.png" alt="Jogo do Plural" class="capa-jogo">
       <h3>Jogo do Plural</h3>
-      <p>Descubra como colocar substantivos e adjetivos no plural.</p>
+      <p>Aprenda regras especiais do plural dos substantivos compostos.</p>
       <a href="https://www.escolagames.com.br/jogos/jogo-do-plural" target="_blank" class="btn btn-amarelo">JOGAR AGORA!</a>
     </div>
-    <div class="card card-verde gira-dir">
-      <span class="badge">9 ANOS</span>
-      <h3>Bruxa dos Acentos</h3>
-      <p>Pratique regras essenciais de acentuação gráfica.</p>
-      <a href="https://www.escolagames.com.br/jogos/bruxa-dos-acentos" target="_blank" class="btn btn-amarelo">JOGAR AGORA!</a>
-    </div>
-    <div class="card card-amarelo gira-esq">
-      <span class="badge">9 ANOS</span>
+    <div class="card card-amarelo gira-dir">
+      <span class="badge">6 ANOS</span>
+      <img src="img/caçapalavras.png" alt="Caça Palavras" class="capa-jogo">
       <h3>Caça Palavras</h3>
-      <p>Aumente seu vocabulário procurando termos em diferentes áreas.</p>
+      <p>Encontre as palavras escondidas na grade de letras.</p>
       <a href="https://www.escolagames.com.br/jogos/caca-palavras" target="_blank" class="btn btn-amarelo">JOGAR AGORA!</a>
+    </div>
+    <div class="card card-verde gira-esq">
+      <span class="badge">8 ANOS</span>
+      <img src="img/bruxadosacentos.png" alt="Bruxa dos Acentos" class="capa-jogo">
+      <h3>Bruxa dos Acentos</h3>
+      <p>Aprenda onde aplicar os acentos agudo e circunflexo nas palavras.</p>
+      <a href="https://www.escolagames.com.br/jogos/bruxa-dos-acentos" target="_blank" class="btn btn-amarelo">JOGAR AGORA!</a>
     </div>
   </div>
 
   <!-- 10 ANOS -->
   <div class="grid-cards grupo-jogos grupo-10" style="display: none;">
-    <div class="card card-roxo gira-dir">
-      <span class="badge">10 ANOS</span>
+    <div class="card card-amarelo gira-dir">
+      <span class="badge">8 ANOS</span>
+      <img src="img/sopadeletrinhas.png" alt="Sopa de Letrinhas" class="capa-jogo">
       <h3>Sopa de Letrinhas</h3>
-      <p>Treine a ortografia e evite erros comuns de escrita.</p>
+      <p>Encontre a grafia correta das palavras no meio da sopa.</p>
       <a href="https://www.escolagames.com.br/jogos/sopa-de-letrinhas" target="_blank" class="btn btn-amarelo">JOGAR AGORA!</a>
     </div>
-    <div class="card card-verde gira-esq">
-      <span class="badge">10 ANOS</span>
+    <div class="card card-amarelo gira-esq">
+      <span class="badge">11 ANOS</span>
+      <img src="img/jogodoplural.png" alt="Jogo do Plural" class="capa-jogo">
       <h3>Jogo do Plural</h3>
-      <p>Conduza palavras difíceis para as suas formas no plural.</p>
+      <p>Aprenda regras especiais do plural dos substantivos compostos.</p>
       <a href="https://www.escolagames.com.br/jogos/jogo-do-plural" target="_blank" class="btn btn-amarelo">JOGAR AGORA!</a>
     </div>
-    <div class="card card-amarelo gira-dir">
-      <span class="badge">10 ANOS</span>
+    <div class="card card-verde gira-dir">
+      <span class="badge">7 ANOS</span>
+      <img src="img/ditado.png" alt="Ditador" class="capa-jogo">
       <h3>Ditado</h3>
-      <p>Desafio avançado de escrita e audição.</p>
+      <p>Escute a palavra e escreva corretamente na tela.</p>
       <a href="https://www.escolagames.com.br/jogos/ditado" target="_blank" class="btn btn-amarelo">JOGAR AGORA!</a>
     </div>
   </div>
 
   <!-- 11 ANOS -->
   <div class="grid-cards grupo-jogos grupo-11" style="display: none;">
-    <div class="card card-roxo gira-esq">
-      <span class="badge">11 ANOS</span>
+    <div class="card card-verde gira-esq">
+      <span class="badge">8 ANOS</span>
+      <img src="img/bruxadosacentos.png" alt="Bruxa dos Acentos" class="capa-jogo">
       <h3>Bruxa dos Acentos</h3>
-      <p>Reforce as regras de acentuação e proparoxítonas.</p>
+      <p>Aprenda onde aplicar os acentos agudo e circunflexo nas palavras.</p>
       <a href="https://www.escolagames.com.br/jogos/bruxa-dos-acentos" target="_blank" class="btn btn-amarelo">JOGAR AGORA!</a>
     </div>
-    <div class="card card-verde gira-dir">
-      <span class="badge">11 ANOS</span>
+    <div class="card card-amarelo gira-dir">
+      <span class="badge">8 ANOS</span>
+      <img src="img/sopadeletrinhas.png" alt="Sopa de Letrinhas" class="capa-jogo">
       <h3>Sopa de Letrinhas</h3>
-      <p>Exercite o vocabulário e o reconhecimento rápido de palavras.</p>
+      <p>Encontre a grafia correta das palavras no meio da sopa.</p>
       <a href="https://www.escolagames.com.br/jogos/sopa-de-letrinhas" target="_blank" class="btn btn-amarelo">JOGAR AGORA!</a>
     </div>
     <div class="card card-amarelo gira-esq">
       <span class="badge">11 ANOS</span>
+      <img src="img/jogodoplural.png" alt="Jogo do Plural" class="capa-jogo">
       <h3>Jogo do Plural</h3>
       <p>Aprenda regras especiais do plural dos substantivos compostos.</p>
       <a href="https://www.escolagames.com.br/jogos/jogo-do-plural" target="_blank" class="btn btn-amarelo">JOGAR AGORA!</a>
@@ -380,7 +430,8 @@
     <!-- ========================================== -->
     <!-- 3ª PARTE: TÓPICO EXCLUSIVO DE LEITURA -->
     <!-- ========================================== -->
-    <section class="bloco bloco-leitura">
+     
+    <section id="leitura" class="bloco bloco-informatica">
       <div class="faixa-titulo">
         <h2>Cantinho da Leitura - Livros Digitais</h2>
       </div>
@@ -427,7 +478,7 @@
     <!-- ========================================== -->
     <!-- 4ª PARTE: SANTOS -->
     <!-- ========================================== -->
-    <section class="bloco bloco-santos">
+    <section id="santos" class="bloco bloco-informatica">
       <div class="faixa-titulo">
         <h2>Nossos Amigos do Céu</h2>
       </div>
@@ -491,7 +542,7 @@
     <!-- ========================================== -->
     <!-- 5ª PARTE: HISTÓRIAS DA BÍBLIA (3 HISTÓRIAS) -->
     <!-- ========================================== -->
-    <section class="bloco bloco-biblia">
+    <section id="biblia" class="bloco bloco-informatica">
       <div class="faixa-titulo">
         <h2>Histórias da Bíblia (Turminha do Céu)</h2>
       </div>
@@ -565,7 +616,7 @@
     <!-- ========================================== -->
     <!-- 6ª PARTE: SOBRE A ESCOLA GAMES -->
     <!-- ========================================== -->
-    <section class="bloco bloco-escolagames">
+    <section id="escolagames" class="bloco bloco-informatica">
       <div class="faixa-titulo">
         <h2>Conheça a Escola Games</h2>
       </div>
@@ -583,7 +634,7 @@
     <!-- ========================================== -->
     <!-- 7ª PARTE: PASTORAL DO MENOR EM NOVA CRUZ -->
     <!-- ========================================== -->
-    <section class="bloco bloco-pastoral">
+    <section id="pastoral" class="bloco bloco-informatica">
       <div class="faixa-titulo">
         <h2>Pastoral do Menor em Nova Cruz - RN</h2>
       </div>
@@ -594,12 +645,14 @@
           A <strong>Pastoral do Menor em Nova Cruz/RN</strong> é um projeto social e comunitário dedicado ao acolhimento, proteção integral e promoção dos direitos das crianças e adolescentes.
         </p>
         <p style="margin-top: 10px;">
-          Por meio de oficinas educativas, acompanhamento escolar e aulas práticas de <strong>Informática Básica e Matemática</strong>, o projeto incentiva a inclusão digital e o protagonismo jovem sob a coordenação de <strong>Antonio Magnus Dantas Xavier</strong> e <strong>Maria Luiza de Medeiros Teixeira</strong>. 
-
+          Por meio de oficinas educativas, acompanhamento escolar e aulas práticas de <strong>Informática Básica e Matemática</strong>, 
+          o projeto incentiva a inclusão digital e o protagonismo jovem sob a coordenação de <strong>Antonio Magnus Dantas Xavier</strong> e <strong>Maria Luiza de Medeiros Teixeira</strong> e as atuais bolsistas
+           <strong>Celina Camila Souza de Oliveira</strong>, <strong>Genife lorany vicente de luna</strong> e <strong>Isly Gabriely Galvão dos Santos</strong>. 
         <h4 style="margin-top: 20px; font-family:'Chewy'; font-size:1.4rem;">Registros das Nossas Atividades:</h4>
         <div class="galeria-pastoral">
           <div class="foto-moldura">
-            <div class="foto-placeholder">Laboratório de Informática</div>
+             <img src="img/projeto.jpg.jpeg" class="foto-projeto">
+            <div>Laboratório de Informática</div>
             <span>Oficina de Computação</span>
           </div>
         </div>
