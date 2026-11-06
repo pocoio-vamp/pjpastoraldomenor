@@ -17,19 +17,33 @@
   <header class="topo">
     <h1>APRENDER & BRINCAR</h1>
     <p>Informática, Jogos, Livros, Amigos do Céu e Histórias!</p>
+  </header>
+
+  <!-- BOTÃO DE ABRIR O MENU -->
+  <button class="btn-toggle-menu" onclick="toggleMenu()">
+    ☰ MENU
+  </button>
+
+  <!-- ASIDE COM O ID OBRIGATÓRIO -->
+  <aside class="menu-lateral" id="menuLateral">
+    <div class="cabecalho-aside">
+      <span class="titulo-menu">Navegação</span>
+      <button class="btn-fechar-aside" onclick="toggleMenu()">✖</button>
+    </div>
     
-    <nav class="menu-navegacao">
+    <nav class="nav-aside">
       <ul>
-        <li><a href="#informatica">Informática</a></li>
-        <li><a href="#jogos">Jogos</a></li>
-        <li><a href="#leitura">Leitura</a></li>
-        <li><a href="#santos">Santos</a></li>
-        <li><a href="#biblia">Bíblia</a></li>
-        <li><a href="#fontes">Fontes</a></li>
-        <li><a href="#pastoral">Pastoral</a></li>
+        <li><a href="#informatica" onclick="toggleMenu()">Informática</a></li>
+        <li><a href="#jogos" onclick="toggleMenu()">Jogos Educativos</a></li>
+        <li><a href="#raciocinio" onclick="toggleMenu()">Raciocínio</a></li>
+        <li><a href="#leitura" onclick="toggleMenu()">Leitura</a></li>
+        <li><a href="#santos" onclick="toggleMenu()">Santos</a></li>
+        <li><a href="#biblia" onclick="toggleMenu()">Bíblia</a></li>
+        <li><a href="#fontes" onclick="toggleMenu()">Fontes</a></li>
+        <li><a href="#pastoral" onclick="toggleMenu()">Pastoral</a></li>
       </ul>
     </nav>
-  </header>
+  </aside>
 
   <main class="conteudo">
 
@@ -45,7 +59,6 @@
 
         <!-- Aula 1: O que é o Computador -->
         <div class="card card-azul gira-esq">
-          <span class="badge">AULA 1</span>
           <img src="img/figura3.jpg" alt="Família usando tecnologia" class="img-informatica">
           <h3>Cuidados necessários</h3>
           <p>Ao aprender com os computadores, notebooks e tablets ajudam a gente a estudar, trabalhar e nos divertir, mas precisa de um adulto responsável!</p>
@@ -53,7 +66,6 @@
 
         <!-- Aula 2: Partes do Computador -->
         <div class="card card-amarelo gira-dir">
-          <span class="badge">AULA 2</span>
           <img src="img/figura1.png" alt="Partes do Computador" class="img-informatica">
           <h3>Partes do Computador</h3>
           <p>Os computadores contém função do monitor, gabinete, teclado e mouse para o funcionamento do seu PC.</p>
@@ -61,7 +73,6 @@
 
         <!-- Aula 3: Como Ligar e Desligar -->
         <div class="card card-verde gira-esq">
-          <span class="badge">AULA 3</span>
           <img src="img/ligardesligar.jpg" alt="Botão Ligar e Desligar" class="img-informatica">
           <h3>Ligar e Desligar</h3>
           <p>Veja onde fica o botão de energia no gabinete e no monitor para ligar seu equipamento com segurança.</p>
@@ -69,7 +80,6 @@
 
         <!-- Aula 4: Dominando o Mouse -->
         <div class="card card-rosa gira-dir">
-          <span class="badge">AULA 4</span>
           <img src="img/mouse.png" alt="Botões do Mouse" class="img-informatica">
           <h3>O Mouse Ratudo</h3>
           <p>O mouse ratudo tem o botão esquerdo (clique/seleção), o botão direito (opções) e a ropinha central.</p>
@@ -77,7 +87,6 @@
 
         <!-- Aula 5: Dominando o Teclado -->
         <div class="card card-roxo gira-esq">
-          <span class="badge">AULA 5</span>
           <img src="img/teclado.jpg" alt="Divisão das Teclas no Teclado" class="img-informatica">
           <h3>Teclado Grandão</h3>
           <p>Nele tem a divisão das teclas: digitação, teclas de função, navegação e o teclado numérico.</p>
@@ -85,7 +94,6 @@
 
         <!-- Aula 6: Organizando Pastas -->
         <div class="card card-amarelo gira-dir">
-          <span class="badge">AULA 6</span>
           <img src="img/pastas-windows-explorer.png" alt="Criando Pastas no Windows" class="img-informatica">
           <h3>Criando Pastas</h3>
           <p>Para criar pastas basta usar o botão direito na área de trabalho e em novo clique em pasta escolha o nome que quiser, será importante para organizar suas pastas de tarefas.</p>
@@ -423,6 +431,68 @@
     </section>
 
     <!-- ========================================== -->
+    <!-- 2.1ª PARTE: JOGOS DE RACIOCÍNIO (ESCOLA GAMES) -->
+    <!-- ========================================== -->
+    <section id="raciocinio" class="bloco bloco-raciocinio">
+      <div class="faixa-titulo faixa-raciocinio">
+        <h2>Jogos de Raciocínio Lógico</h2>
+      </div>
+
+      <div class="intro-infantil">
+        <p>Desafie sua mente! Escolhemos 3 jogos incríveis do Escola Games para testar sua lógica, concentração e rapidez de pensamento.</p>
+      </div>
+
+      <div class="grid-cards">
+        
+        <!-- Card Jogo 1 -->
+        <div class="card card-roxo gira-esq">
+          <span class="badge">JOGO 1</span>
+          <div class="card-img">
+            <img src="img/sudoku.png" alt="Jogo Sudoku - Escola Games">
+          </div>
+          <h3>1. Sudoku</h3>
+          <p class="historia">
+            • <strong>Objetivo:</strong> Preencher os espaços sem repetir números.<br>
+            • <strong>Habilidade:</strong> Raciocínio lógico, foco e observação.<br>
+            • <strong>Como Jogar:</strong> Analise o tabuleiro e encaixe os elementos nos lugares corretos.
+          </p>
+          <a href="https://www.escolagames.com.br/jogos-divertidos/sudoku" target="_blank" class="btn btn-verde">JOGAR AGORA </a>
+        </div>
+
+        <!-- Card Jogo 2 -->
+        <div class="card card-laranja gira-dir">
+          <span class="badge">JOGO 2</span>
+          <div class="card-img">
+            <img src="img/gire e escape.png" alt="Jogo Gire e Escape - Escola Games">
+          </div>
+          <h3>2. Gire e Escape</h3>
+          <p class="historia">
+            • <strong>Objetivo:</strong> Montar o caminho correto para libertar o personagem.<br>
+            • <strong>Habilidade:</strong> Visão espacial e planejamento.<br>
+            • <strong>Como Jogar:</strong> Gire os blocos para conectar as vias e encontrar a saída.
+          </p>
+          <a href="https://www.escolagames.com.br/jogos-divertidos/gire-e-escape" target="_blank" class="btn btn-verde">JOGAR AGORA </a>
+        </div>
+
+        <!-- Card Jogo 3 -->
+        <div class="card card-azul gira-esq">
+          <span class="badge">JOGO 3</span>
+          <div class="card-img">
+            <img src="img/desafioarimetico.png" alt="Jogo Desafio Aritmético - Escola Games">
+          </div>
+          <h3>3. Desafio Aritmético</h3>
+          <p class="historia">
+            • <strong>Objetivo:</strong> Resolver as continhas antes do tempo acabar.<br>
+            • <strong>Habilidade:</strong> Cálculo mental e agilidade.<br>
+            • <strong>Como Jogar:</strong> Veja as operações na tela e clique rápido no resultado certo.
+          </p>
+          <a href="https://www.escolagames.com.br/jogos-divertidos/desafio-aritmetico" target="_blank" class="btn btn-verde">JOGAR AGORA </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================== -->
     <!-- 3ª PARTE: TÓPICO EXCLUSIVO DE LEITURA -->
     <!-- ========================================== -->
     <section id="leitura" class="bloco bloco-leitura">
@@ -578,7 +648,7 @@
           <p class="historia">
             Josué e o povo marcharam ao redor das muralhas gigantes tocando trombetas até que os muros caíram com o poder da fé!
           </p>
-          <a href="https://www.youtube.com/watch?v=p6RotDzGduw" target="_blank" class="btn btn-vermelho">ASSISTIR VÍDEO 🎬</a>
+          <a href="https://www.youtube.com/watch?v=p6RotDzGduw" target="_blank" class="btn btn-vermelho">ASSISTIR VÍDEO</a>
         </div>
 
         <div class="card card-roxo gira-esq">
@@ -588,7 +658,7 @@
           <p class="historia">
             Salomão foi o rei mais sábio de todos! Ele pediu inteligência a Deus para governar o seu povo com justiça e bondade.
           </p>
-          <a href="https://www.youtube.com/watch?v=KQYA6RBXGKE" target="_blank" class="btn btn-vermelho">ASSISTIR VÍDEO 🎬</a>
+          <a href="https://www.youtube.com/watch?v=KQYA6RBXGKE" target="_blank" class="btn btn-vermelho">ASSISTIR VÍDEO</a>
         </div>
 
         <div class="card card-verde gira-dir">
@@ -598,7 +668,7 @@
           <p class="historia">
             Quer assistir a todos os outros episódios? Clique no botão abaixo para acessar a playlist completa da Turminha do Céu!
           </p>
-          <a href="https://www.youtube.com/watch?v=nEcRpjTJsb0&list=PLHkpkXnrMo08soi9e0vQk8DY4UsVKsjD_" target="_blank" class="btn btn-vermelho">VER PLAYLIST 📺</a>
+          <a href="https://www.youtube.com/watch?v=nEcRpjTJsb0&list=PLHkpkXnrMo08soi9e0vQk8DY4UsVKsjD_" target="_blank" class="btn btn-vermelho">VER PLAYLIST</a>
         </div>
 
       </div>
@@ -717,7 +787,7 @@
         <h4 style="margin-top: 25px; font-family:'Chewy'; font-size:1.4rem;">Registros das Nossas Atividades:</h4>
         <div class="galeria-pastoral">
           <div class="foto-moldura">
-            <img src="img/projeto.jpg.jpeg" alt="Projeto Pastoral do Menor" class="foto-projeto">
+            <img src="img/pastoral.jpeg" alt="Projeto Pastoral do Menor" class="foto-projeto">
             <div>Laboratório de Informática</div>
             <span>Oficina de Computação</span>
           </div>
@@ -728,6 +798,14 @@
   </main>
 
   <script>
+
+    function toggleMenu() {
+      const menu = document.getElementById('menuLateral');
+      if (menu) {
+        menu.classList.toggle('aberto');
+      }
+    }
+
     function filtrarIdade(idade, botao) {
       const botoes = document.querySelectorAll('.btn-idade');
       botoes.forEach(b => b.classList.remove('ativo'));
